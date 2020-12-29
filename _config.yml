@@ -157,17 +157,18 @@ galleries:
 # --------------------------------------------------
 
 comments:
-  enable: false
+  enable: true
   type: valine
   button: true
 
 # Gitalk
 gitalk:
-  owner:
-  repo:
-  admin:
-  clientID:
-  clientSecret:
+  owner: 'WinterChenS'
+  repo: 'WinterChenS.github.io'
+  admin: ['WinterChenS']
+  clientID: '77f2adc33e0112d086d7'
+  clientSecret: 'e926aa3a621556609b2c2b76d89320fa524e23cd'
+  id: location.pathname
 
 # Valine
 valine:
@@ -237,8 +238,8 @@ seo:
 # Analytics
 analytics:
   baidu: # id
-  google: # id
-  tencent: # id
+  google: UA-155319408-1
+  tencent: 500722607
   cnzz: # id
 
 # --------------------------------------------------
