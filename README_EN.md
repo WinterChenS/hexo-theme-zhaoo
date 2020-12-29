@@ -14,7 +14,7 @@
 
 <div align="center">
   <a href="https://github.com/izhaoo/hexo-theme-zhaoo/releases" target="_blank" rel="noopener noreferrer">
-    <img alt="releases" src="https://img.shields.io/badge/releases-v1.4.0-blue.svg?style=flat-square&longCache=true">
+    <img alt="releases" src="https://img.shields.io/badge/releases-v1.6.0-blue.svg?style=flat-square&longCache=true">
   </a>
   <a href="https://hexo.io" target="_blank" rel="noopener noreferrer">
     <img alt="hexo" src="https://img.shields.io/badge/hexo-%3E=4.0.0-blue.svg?style=flat-square&logo=hexo&longCache=true">
@@ -27,23 +27,30 @@
   </a>
 </div>
 
-## Rreview
+<br/>
+
+<div align="center">
+  Documents: <a href="https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/" target="_blank" rel="noopener noreferrer">Documents</a>&nbsp;&nbsp;&nbsp;&nbsp;Preview:<a href="https://www.izhaoo.com/" target="_blank" rel="noopener noreferrer">zhaoo</a>
+</div>
+
+## Preview
 
 - [zhaoo's Blog](https://www.izhaoo.com)
 - [Handwer's Blog](https://blog.handwer-std.top/)
-- [Mtaun](https://mtaun.top/)
+- [与李的个人博客](https://blog.javayuli.cn)
+- [Live And Learn](https://kangshitao.github.io/)
+- [Hexo](https://www.actor360.xyz/)
+- [阿蓝故事](https://blog.zhangxiaocai.cn/)
+- [kilic の 部落格](https://kilicmu.github.io/)
 - [杨云召](https://flywith24.gitee.io/)
+- [Mtaun](https://mtaun.top/)
 - [汐语](https://xywangb.cn/)
 - [Meizi's Blog](http://www.meizia.net/)
-- [kilic の 部落格](https://kilicmu.github.io/)
-- [Hexo](https://www.actor360.xyz/)
-- [Live And Learn](https://kangshitao.github.io/)
-- [Yin Blog](http://xuzhimo.top/)
-- [CodeGorgeous](https://codegorgeous.github.io/)
-- [卞卞不是便便](https://www.bianxr.com/)
-- [你好我是王日天@](http://www.rt95.ink/)
-- [iaosee's Blog](https://www.iaosee.com/)
 - [少年民仔](https://www.feminzai.com/)
+- [iaosee's Blog](https://www.iaosee.com/)
+- [Yin Blog](http://xuzhimo.top/)
+- [卞卞不是便便](https://www.bianxr.com/)
+- [CodeGorgeous](https://codegorgeous.github.io/)
 
 （If you are using the zhaoo theme, welcome to show your blog, just add your blog to the `README.md` and PR.）
 
@@ -124,7 +131,7 @@ $ hexo clean && hexo s
 
 Modify the file `_config.yml` in the theme directory to configure related functions:
 
-It is recommended to refer to [_config.yml](https://github.com/izhaoo/hexo-theme-zhaoo/blob/master/_config.yml) and [_example](https://github.com/izhaoo/hexo-theme-zhaoo/tree/master/_example) for configuration
+It is recommended to refer to [documents](https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/)、[_config.yml](https://github.com/izhaoo/hexo-theme-zhaoo/blob/master/_config.yml)、[_example](https://github.com/izhaoo/hexo-theme-zhaoo/tree/master/_example) for configuration
 
 ## Update
 
@@ -145,6 +152,12 @@ $ git pull
 * Weapp: [hexo-weapp-zhaoo](https://github.com/izhaoo/hexo-weapp-zhaoo) (Weapp for Hexo)
 * Plugin: [hexo-generator-restful](https://github.com/izhaoo/hexo-generator-restful) (RESTful API for Hexo)
 * Exchange group: 550262893
+
+## Contributors
+
+[![contributors](https://opencollective.com/hexo-theme-zhaoo/contributors.svg?button=false)](https://github.com/izhaoo/hexo-theme-zhaoo/graphs/contributors)
+
+Thanks to all contributors! Welcome to PR.
 
 ## Stargazers
 
