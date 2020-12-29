@@ -104,7 +104,7 @@ gray:
 # Post Image
 post_image:
   random: local # local galleries
-  default: /images/theme/post-image.jpg
+  default: http://img.winterchen.com/david-murray-chambers-cYoKZ0XJcEA-unsplash1300-500.jpg
 
 # Page Size
 post_page_size:
