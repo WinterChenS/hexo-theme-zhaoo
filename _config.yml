@@ -158,7 +158,7 @@ galleries:
 
 comments:
   enable: true
-  type: valine
+  type: gitalk
   button: true
 
 # Gitalk
