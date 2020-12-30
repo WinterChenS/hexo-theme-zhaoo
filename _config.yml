@@ -87,7 +87,7 @@ fab:
 qrcode:
   enable: true
   type: url # url image
-  image: https://pic.izhaoo.com/weapp-code.jpg
+  image: http://img.winterchen.com/wechat_web_app.jpg
 
 # Color Mode
 color_mode:
