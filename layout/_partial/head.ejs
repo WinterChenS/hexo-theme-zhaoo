@@ -97,6 +97,7 @@ var description = '';
         },
         motto: {
           default: '<%= theme.preview.motto.default %>',
+          typing: <%= theme.preview.motto.typing %>,
           api: '<%- theme.preview.motto.api %>',
           data_contents: '<%- theme.preview.motto.data_contents && JSON.stringify(theme.preview.motto.data_contents) %>'
         },
@@ -110,7 +111,7 @@ var description = '';
         enable: <%= theme.toc.enable %>
       },
       scrollbar: {
-        model: '<%= theme.scrollbar.model %>'
+        type: '<%= theme.scrollbar.type %>'
       },
       notification: {
         enable: <%= theme.notification.enable %>,
@@ -118,6 +119,10 @@ var description = '';
         list: '<%- site.data.notification && JSON.stringify(site.data.notification) %>',
         page_white_list: '<%- theme.notification.page_white_list && JSON.stringify(theme.notification.page_white_list) %>',
         page_black_list: '<%- theme.notification.page_black_list && JSON.stringify(theme.notification.page_black_list) %>'
+      },
+      search: {
+        enable: <%= theme.search.enable %>,
+        path: '<%- config.search.path %>'
       }
     }
   </script>
