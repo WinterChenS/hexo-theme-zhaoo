@@ -10,6 +10,7 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
       fn.hideFab();
       ZHAOO.utils.bindKeyup(27, function () {
         fn.hideMenu();
+        $(".navbar").removeClass("hide");
       });
     },
     hideMenu: function () {
@@ -22,6 +23,7 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
       fn.hideFab();
       ZHAOO.utils.bindKeyup(27, function () {
         fn.hideSearch();
+        $(".navbar").removeClass("hide");
       });
     },
     hideSearch: function () {
@@ -101,10 +103,10 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
           if ($(window).scrollTop() > 60) {
             $(".navbar .center").addClass("hide");
           } else {
+            $(".navbar .center").removeClass("hide");
             if (!CONFIG.isHome) {
               $(".navbar").removeClass("transparent");
             }
-            $(".navbar .center").removeClass("hide");
           }
         }
         center();
