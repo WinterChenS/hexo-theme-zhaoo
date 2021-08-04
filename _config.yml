@@ -252,7 +252,7 @@ pjax: false
 highlight:
   enable: true
   style: # https://highlightjs.org/static/demo/
-    light: Github Dark
+    light: Github Dark Dimmed
     dark: Solarized Dark
 
 # SEO
