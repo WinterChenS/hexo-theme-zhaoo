@@ -76,7 +76,7 @@ navbar:
   back_home: true
 
 # Copyright
-copyright: <p>Copyright 2020 | - <a target="_blank" href="https://github.com/Winterchens">winterchen</a> | <a rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">浙ICP备17056942号</a>  </p>
+copyright: <p>Copyright 2017 | - <a target="_blank" href="https://github.com/Winterchens">winterchen</a> | <a rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">浙ICP备17056942号</a>  </p>
 
 # Social
 social:
@@ -98,7 +98,8 @@ fab:
 
 # Search
 search:
-  enable: false
+  enable: true
+
 
 # QR Code
 qrcode:
@@ -251,7 +252,7 @@ pjax: false
 highlight:
   enable: true
   style: # https://highlightjs.org/static/demo/
-    light: Xcode
+    light: Github Dark
     dark: Solarized Dark
 
 # SEO
