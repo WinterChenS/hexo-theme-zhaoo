@@ -21,7 +21,7 @@ module.exports.lazyload = function (hexo) {
 
 function lazyProcess(data) {
   return data.replace(/<img([^>]*)src="([^"]*)"([^>]*)>/gim, function (match, attrBegin, src, attrEnd) {
-    if (!src || /class="(.*?)"/gi.test(match)) {
+    if (!src || /class="(.*?)"/gi.test(match) || (attrBegin + attrEnd).includes('no-referrer')) {
       return match;
     }
     var className = `lazyload`;
